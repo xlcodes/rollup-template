@@ -1,6 +1,4 @@
 
-export default {
-    sayHello: () => {
-        console.log('hello world!')
-    }
+export const sayHello = () => {
+    return 'hello world!'
 }

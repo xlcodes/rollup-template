@@ -1,13 +1,13 @@
 {
   "presets": [
     [
-      "latest",
+      "@babel/preset-env",
       {
-        "es2015": {
-          "modules": false
+        "targets": {
+          "node": "current"
         }
       }
-    ]
-  ],
-  "plugins": ["external-helpers"]
+    ],
+    "@babel/preset-typescript"
+  ]
 }
