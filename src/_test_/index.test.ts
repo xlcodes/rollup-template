@@ -1,4 +1,4 @@
-import {sayHello} from "../index"
+import {sayHello} from "@/index"
 import {expect} from "@jest/globals";
 
 describe('测试', () => {
